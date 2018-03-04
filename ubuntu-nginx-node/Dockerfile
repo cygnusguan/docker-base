@@ -5,3 +5,5 @@ RUN echo 'deb http://ubuntu.csie.ntu.edu.tw/ubuntu/ dapper main restricted unive
     apt-get update && \
     apt-get install -y vim nginx nodejs npm&&\
 rm -rf /var/lib/apt/lists/*
+
+EXPOSE 80 8080
